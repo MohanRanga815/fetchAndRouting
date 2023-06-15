@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.blog-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+}
+@media screen and (min-width: 575px) {
+  .blog-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.blog-item {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-weight: 700;
+  color: black;
+  font-size: 30px;
+}
+.author-con {
+  display: flex;
+}
+.avatar {
+  width: 20px;
+  height: 20px;
+}
+.para {
+  color: #d3d3d3;
+  font-size: 18px;
+}
+.image {
+  width: 60%;
+  height: 30vh;
+}
+.content {
+  color: #2f4f4f;
+  font-size: 18px;
+  font-weight: 500;
+}
